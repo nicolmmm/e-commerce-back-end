@@ -59,7 +59,6 @@ router.delete("/:id", async (req, res) => {
   } catch (error) {
     res.status(400).json(error);
   }
-  // upda
   // delete a category by its `id` value
 });
 
